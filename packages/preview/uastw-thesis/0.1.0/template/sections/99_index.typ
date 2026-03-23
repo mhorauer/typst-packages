@@ -1,4 +1,4 @@
-#import "@preview/gentle-clues:1.3.0": *
+#import "@preview/gentle-clues:1.3.1": *
 
 #heading(outlined: true, bookmarked: true, numbering: none)[Index] 
 

@@ -294,14 +294,14 @@ Another famous quote from @goethe1999faust1 is:
 
 #quote(attribution: [J.W. Goethe], block: true)["Die Botschaft hör ich wohl, allein mir fehlt der Glaube."]
 
-#import "@preview/gentle-clues:1.3.0": *
+#import "@preview/gentle-clues:1.3.1": *
 
 #info[References simply use the anchor, e.g. `@goethe1999faust1` as used as key in the BibTeX file ...]
 
 To set clue boxes like INFO, WARNING, TIP, etc. you may use the #link("https://typst.app/universe/package/gentle-clues")[gentle clues] package. The above info box was rendered using:
 
 ```
-#import "@preview/gentle-clues:1.3.0": *
+#import "@preview/gentle-clues:1.3.1": *
 
 #info[References simply use the anchor, e.g. `@goethe1999faust1` as used as key in the BibTeX file ...]
 ```
@@ -328,7 +328,7 @@ To render code listings the Typst universe features various packages - a promine
 
 
 ```
-#import "@preview/codly:1.2.0": *
+#import "@preview/codly:1.3.0": *
 #show: codly-init.with()
 
 // Load and display an external C file
@@ -338,7 +338,7 @@ To render code listings the Typst universe features various packages - a promine
 The rendered output looks like ...
 
 #{
-import "@preview/codly:1.2.0": *
+import "@preview/codly:1.3.0": *
 show: codly-init.with()
 
 // Load and display an external C file
